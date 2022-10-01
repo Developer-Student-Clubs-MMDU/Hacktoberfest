@@ -1,44 +1,83 @@
-# Hacktoberfest
-![192114009-0830321a-d227-4a4d-8411-6c03b54d7ce6](https://user-images.githubusercontent.com/60257288/192865423-4302f992-18c4-443a-9bf8-be8b91616720.png)
+# Contributing Guidelines
 
-HOW TO CONTRIBUTE
+Thank you so much for your interest in contributing!. All types of contributions are encouraged and valued. Please go through this guidelines before making your contribution! It will make it a lot easier for us maintainers to make the most of it and smooth out the experience for all involved.
 
+We look forward to your contributions.
 
+## Before you contribute
 
-1)	Fork:
-Go to the repository and click on the Fork button as displayed in the
+Before you contribute to our repository, you must sign up for:
 
-![image](https://user-images.githubusercontent.com/60257288/192866867-08363f35-c014-4329-a96c-8eae3612e391.png)
+1. [Hacktoberfest 2022](https://hacktoberfest.com/auth/)
+2. [Fill our Form](https://forms.gle/o7rD1E5LkuHkb8bE7)
 
+## Let's Contribute
 
-2)	Clone:
-Click on the clone button as displayed below.
+1.  Fork this repository.
 
-![image](https://user-images.githubusercontent.com/60257288/192866972-16e4c29a-3c56-4195-aab4-1b2b6233815e.png)
-![image](https://user-images.githubusercontent.com/60257288/192867044-f802fd91-b893-49aa-8a82-06d88f19b422.png)
+    You can make a copy of the project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
 
- 
+    Click on fork to create a copy of project to your account. This creates a separate copy for you to work on.
 
-3)	Hack:
-Go to the participants folder and create a file named <github- username>.txt.
-  
-![image](https://user-images.githubusercontent.com/60257288/192867142-b491fd1c-98e4-470a-a8dc-f3b3747f5f9b.png)
+1.  Clone the forked repository to your local machine.
 
+    You have forked the project you want to contribute to your github account. To get this project on your development machine we use clone command of git.
 
-Fill in your details there and save the file! Make sure you save it in the Participants directory and no where else!
-  
-4)	Add, Commit, Push:
-  
-![image](https://user-images.githubusercontent.com/60257288/192867260-b33ff120-d445-4d88-ab7a-120a3780567a.png)
+    ```
+    $ git clone https://github.com/YOUR_USERNAME_HERE/Hacktoberfest.git
+    ```
 
+    Now you have the project on your local machine.
 
- 
+1.  Create a new branch for a feature or bugfix provided in the Issues section of the repository.
 
-Add the following commands on Git Bash or Git whichever you are using.
-  
-5)	Send a Pull Request:
+    Usually, all repositories have a main branch that is regarded to be stable, and any new features should be developed on a separate branch before being merged into the main branch. As a result, we should establish a new branch for our feature or bugfix and go to work on the issue.
 
-  ![image](https://user-images.githubusercontent.com/60257288/192867479-55fbdb91-89c8-460c-b2d5-89958b28dd80.png)
+    ```
+    $ git checkout -b BRANCH_NAME_HERE
+    ```
 
+    This will create a new branch out of master branch. Now start working on the problem and commit your changes.
 
-Find more Issues on the Wiki and happy hacking this Hacktoberfest!
+1.  Add the changes to your repository.
+
+    ```
+    $ git add .
+    $ git commit -m "COMMIT_MESSAGE_HERE"
+    ```
+
+    The first command adds all the files or you can add specific files by removing "_._" and adding the file names.
+    The second command gives a message to your changes so you can know in future what changes this commit makes.
+
+1.  Push code and create a pull request. And that's all.
+
+    You now have a new branch containing the modifications you want in the project you forked. Now, push your new branch to your remote github fork.
+
+    ```
+    $ git push origin BRANCH_NAME_HERE
+    ```
+
+    Now you are ready to help the project by opening a pull request means you now tell the project managers to add the feature or bug fix to original repository. You can open a pull request by clicking on green icon -
+
+    Remember your upstream base branch should be main and source should be your feature branch. Click on create pull request and add a name to your pull request. You can also describe your feature.
+
+## What you can contribute in this repo?
+
+-   You can add your own project or a blog explaining a topic related to the selected languages or framework.
+-   There are various topics like Android Development, Web Development(Front end, Back end), Graphic Designing, UI/UX, Data Structures and Algorithms, Python, SQL, NOSQL and etc. You can contribute in them
+-   You can contribute directly on the issues that we have created for you.
+-   You can modify previous information if you feel you can do better.
+
+## Maintainers and Collaborators
+
+[GDSC MMDU](https://gdsc.community.dev/maharishi-markandeshwar-deemed-to-be-university-mullana/)
+|
+[GDSC GECR](https://gdsc.community.dev/government-engineering-college-rajkot/)
+|
+[GDSC BBSBEC](https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/)
+|
+[GDSC JCBUST](https://gdsc.community.dev/j-c-bose-university-of-science-and-technology-faridabad/)
+|
+[GDSC DTC]()
+|
+[GDSC CGEC]()

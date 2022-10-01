@@ -16,6 +16,8 @@ Before you contribute to our repository, you must sign up for:
 1.  Fork this repository.
 
     You can make a copy of the project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
+    
+    ![image](https://user-images.githubusercontent.com/97826441/193424224-19ff62d0-fe61-450b-89ec-c75668d9639e.png)
 
     Click on fork to create a copy of project to your account. This creates a separate copy for you to work on.
 
@@ -58,6 +60,8 @@ Before you contribute to our repository, you must sign up for:
     ```
 
     Now you are ready to help the project by opening a pull request means you now tell the project managers to add the feature or bug fix to original repository. You can open a pull request by clicking on green icon -
+    
+    ![image](https://user-images.githubusercontent.com/97826441/193424306-c7c9c106-c753-46e7-a9bb-9876ed27b959.png)
 
     Remember your upstream base branch should be main and source should be your feature branch. Click on create pull request and add a name to your pull request. You can also describe your feature.
 

@@ -74,16 +74,10 @@ Before you contribute to our repository, you must sign up for:
 
 ## Maintainers and Collaborators
 
-[GDSC MMDU](https://gdsc.community.dev/maharishi-markandeshwar-deemed-to-be-university-mullana/)
-|
-[GDSC GECR](https://gdsc.community.dev/government-engineering-college-rajkot/)
-|
-[GDSC BBSBEC](https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/)
-|
-[GDSC JCBUST](https://gdsc.community.dev/j-c-bose-university-of-science-and-technology-faridabad/)
-|
-[GDSC DTC](https://gdsc.community.dev/delhi-technical-campus-greater-noida/)
-|
-[GDSC CGEC](https://gdsc.community.dev/cooch-behar-government-engineering-college-cooch-behar/)
-|
-[GDSC NCE](https://gdsc.community.dev/nalanda-college-of-engineering-chandi/)
+[<img src="https://user-images.githubusercontent.com/97826441/193492836-8446605e-8915-4967-84e3-3d5498a807df.png" width=200 />](https://gdsc.community.dev/maharishi-markandeshwar-deemed-to-be-university-mullana/)
+[<img src="https://user-images.githubusercontent.com/97826441/193493042-0af865ae-2489-4a55-a626-0a3b1785f6e5.png" width=200 />](https://gdsc.community.dev/government-engineering-college-rajkot/)
+[<img src="https://user-images.githubusercontent.com/97826441/193493174-9e85f94f-bda3-4003-807f-92bdda168659.png" width=200 />](https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/)
+[<img src="https://user-images.githubusercontent.com/97826441/193493245-31ad5ec6-5565-4319-bac3-acf94e00be79.png" width=200 />](https://gdsc.community.dev/j-c-bose-university-of-science-and-technology-faridabad/)
+[<img src="https://user-images.githubusercontent.com/97826441/193493297-6827388b-c81b-4a60-aea3-214e826010f6.png" width=200 />](https://gdsc.community.dev/delhi-technical-campus-greater-noida/)
+[<img src="https://user-images.githubusercontent.com/97826441/193493369-e293a3cc-c1d1-47f2-8adc-180e5ced55a1.png" width=200 />](https://gdsc.community.dev/cooch-behar-government-engineering-college-cooch-behar/)
+[<img src="https://user-images.githubusercontent.com/97826441/193493405-ec02da9c-2b30-4f61-bfac-a56e1f161d3f.png" width=200 />](https://gdsc.community.dev/nalanda-college-of-engineering-chandi/)

@@ -2,6 +2,21 @@
 
 Hacktoberfest is a month-long celebration of open source contribution. Anyone can participate by making four pull requests to public repositories on GitHub. The goal is to get more people involved in contributing to open source projects, and to learn more about the GitHub platform.
 
+## Repository List
+
+1. **Frontend Web Development**: [https://github.com/Developer-Student-Clubs-MMDU/Frontend-Web-Development](https://github.com/Developer-Student-Clubs-MMDU/Frontend-Web-Development)
+1. **Backend Web Development**: [https://github.com/Developer-Student-Clubs-MMDU/Backend-Web-Development](https://github.com/Developer-Student-Clubs-MMDU/Backend-Web-Development)
+1. **App-Development**: [https://github.com/Developer-Student-Clubs-MMDU/App-Development](https://github.com/Developer-Student-Clubs-MMDU/App-Development)
+1. **Data-Structures-and-Algorithms**: [https://github.com/Developer-Student-Clubs-MMDU/Data-Structures-and-Algorithms](https://github.com/Developer-Student-Clubs-MMDU/Data-Structures-and-Algorithms)
+1. **Web-Scraping**: [https://github.com/Developer-Student-Clubs-MMDU/Web-Scraping](https://github.com/Developer-Student-Clubs-MMDU/Web-Scraping)
+1. **Data-Science**: [https://github.com/Developer-Student-Clubs-MMDU/Data-Science](https://github.com/Developer-Student-Clubs-MMDU/Data-Science)
+1. **Database-Management-System**: [https://github.com/Developer-Student-Clubs-MMDU/Database-Management-System](https://github.com/Developer-Student-Clubs-MMDU/Database-Management-System)
+1. **Cloud-Computing**: [https://github.com/Developer-Student-Clubs-MMDU/Cloud-Computing](https://github.com/Developer-Student-Clubs-MMDU/Cloud-Computing)
+1. **Designing**: [https://github.com/Developer-Student-Clubs-MMDU/Designing](https://github.com/Developer-Student-Clubs-MMDU/Designing)
+1. **IOT**: [https://github.com/Developer-Student-Clubs-MMDU/IOT](https://github.com/Developer-Student-Clubs-MMDU/IOT)
+1. **Game-Development**: [https://github.com/Developer-Student-Clubs-MMDU/Game-Development](https://github.com/Developer-Student-Clubs-MMDU/Game-Development)
+1. **Computer-Programming**: [https://github.com/Developer-Student-Clubs-MMDU/Computer-Programming](https://github.com/Developer-Student-Clubs-MMDU/Computer-Programming)
+
 ## Contributing
 
 We welcome all contributions to the community and are exited to welcome you onboard.

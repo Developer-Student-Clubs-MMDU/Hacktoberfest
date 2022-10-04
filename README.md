@@ -27,9 +27,10 @@ Please go through the [Contributing Guidelines](./CONTRIBUTING.md) before you st
 ## Contributors
 
 <a href="https://github.com/Developer-Student-Clubs-MMDU/Hacktoberfest/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=Developer-Student-Clubs-MMDU/Hacktoberfest" />
+  <img src="https://contrib.rocks/image?repo=Developer-Student-Clubs-MMDU/Hacktoberfest" />
 </a>
 
+ 
 ## Maintainers and Collaborators
 
 [<img src="https://user-images.githubusercontent.com/97826441/193492836-8446605e-8915-4967-84e3-3d5498a807df.png" width=200 />](https://gdsc.community.dev/maharishi-markandeshwar-deemed-to-be-university-mullana/)

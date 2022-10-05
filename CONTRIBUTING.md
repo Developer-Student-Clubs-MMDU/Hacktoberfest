@@ -23,7 +23,7 @@ Before you contribute to our repository, you must sign up for:
 
 1.  Clone the forked repository to your local machine.
 
-    You have forked the project you want to contribute to your github account. To get this project on your development machine we use clone command of git.
+    You have forked the project you want to contribute to your github account. To get this project on your development machine, we use clone command of git. Open the terminal on your local machine or git bash.
 
     ```
     $ git clone https://github.com/YOUR_USERNAME_HERE/Hacktoberfest.git
@@ -59,7 +59,7 @@ Before you contribute to our repository, you must sign up for:
     $ git push origin BRANCH_NAME_HERE
     ```
 
-    Now you are ready to help the project by opening a pull request means you now tell the project managers to add the feature or bug fix to original repository. You can open a pull request by clicking on green icon -
+    Now you are ready to help the project by opening a pull request, means you now tell the project managers to add the feature or bug fix to original repository. You can open a pull request by clicking on green icon -
 
     ![image](https://user-images.githubusercontent.com/97826441/193424306-c7c9c106-c753-46e7-a9bb-9876ed27b959.png)
 

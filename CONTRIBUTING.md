@@ -72,6 +72,12 @@ Before you contribute to our repository, you must sign up for:
 -   You can contribute directly on the issues that we have created for you.
 -   You can modify previous information if you feel you can do better.
 
+## Resources to help in contributng to this repo
+
+- **Writing a kickass readme** : (https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3#:~:text=A%20great%20README%20file%20helps,basic%20introduction%20to%20the%20software)
+
+- **Technical writing guide to contributing to open source** : (https://edidiongasikpo.com/the-technical-writers-guide-to-contributing-to-open-source-projects)
+
 ## Maintainers and Collaborators
 
 [<img src="https://user-images.githubusercontent.com/97826441/193492836-8446605e-8915-4967-84e3-3d5498a807df.png" width=200 />](https://gdsc.community.dev/maharishi-markandeshwar-deemed-to-be-university-mullana/)

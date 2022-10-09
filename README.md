@@ -22,7 +22,7 @@ Hacktoberfest is a month-long celebration of open source contribution. Anyone ca
 
 We welcome all contributions to the community and are exited to welcome you onboard.
 
-Please go through the [Contributing Guidelines](./CONTRIBUTING.md) before you start contributing to this repository.
+Please go through the [Contributing Guidelines](./CONTRIBUTING.html) before you start contributing to this repository.
 
 ## Contributors
 

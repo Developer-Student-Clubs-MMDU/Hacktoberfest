@@ -23,7 +23,7 @@ Before you contribute to our repository, you must sign up for:
 
 1.  Clone the forked repository to your local machine.
 
-    You have forked the project you want to contribute to your github account. To get this project on your development machine we use clone command of git.
+    You have forked the project you want to contribute to your github account. To get this project on your development machine, we use clone command of git. Open the terminal on your local machine or git bash.
 
     ```
     $ git clone https://github.com/YOUR_USERNAME_HERE/Hacktoberfest.git
@@ -59,7 +59,7 @@ Before you contribute to our repository, you must sign up for:
     $ git push origin BRANCH_NAME_HERE
     ```
 
-    Now you are ready to help the project by opening a pull request means you now tell the project managers to add the feature or bug fix to original repository. You can open a pull request by clicking on green icon -
+    Now you are ready to help the project by opening a pull request, means you now tell the project managers to add the feature or bug fix to original repository. You can open a pull request by clicking on green icon -
 
     ![image](https://user-images.githubusercontent.com/97826441/193424306-c7c9c106-c753-46e7-a9bb-9876ed27b959.png)
 
@@ -71,6 +71,12 @@ Before you contribute to our repository, you must sign up for:
 -   There are various topics like Android Development, Web Development(Front end, Back end), Graphic Designing, UI/UX, Data Structures and Algorithms, Python, SQL, NOSQL and etc. You can contribute in them
 -   You can contribute directly on the issues that we have created for you.
 -   You can modify previous information if you feel you can do better.
+
+## Resources to help in contributng to this repo
+
+- **Writing a kickass readme** : (https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3#:~:text=A%20great%20README%20file%20helps,basic%20introduction%20to%20the%20software)
+
+- **Technical writing guide to contributing to open source** : (https://edidiongasikpo.com/the-technical-writers-guide-to-contributing-to-open-source-projects)
 
 ## Maintainers and Collaborators
 

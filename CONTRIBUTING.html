@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    a {
+      color: #58a6ff;
+    }
+    img-rez {
+      width: 100%;
+      height: 100%;
+
+      object-fit: cover;
+    }
+    .code {
+      font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+        "Liberation Mono", monospace;
+      /* font-size: 85%;
+      box-sizing: border-box;
+      margin-bottom: 16;
+      overflow-wrap: normal;
+      */
+      overflow-x: auto;
+      border: 1px solid #005cb9 !important;
+
+      background: #161b22;
+      overflow-y: auto;
+      line-height: 1.45;
+      padding: 16px;
+
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+      border-bottom-right-radius: 6px;
+      border-bottom-left-radius: 6px;
+      width: 948;
+      height: 20;
+    }
+  </style>
+  <body
+    style="
+      background-color: #170f1d;
+      color: white;
+      font-family: sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      word-wrap: break-word;
+    "
+  >
+    <div style="padding: 0rem 5rem 0rem 5rem; margin: 5rem">
+      <h1 id="contributing-guidelines">
+        <span><a onclick="history.back()"> HOME  </a> / </span>Contributing
+        Guidelines
+      </h1>
+      <p>
+        Thank you so much for your interest in contributing!. All types of
+        contributions are encouraged and valued. Please go through this
+        guidelines before making your contribution! It will make it a lot easier
+        for us maintainers to make the most of it and smooth out the experience
+        for all involved.
+      </p>
+      <p>We look forward to your contributions.</p>
+      <h2 id="before-you-contribute">Before you contribute</h2>
+      <p>Before you contribute to our repository, you must sign up for:</p>
+      <ol type="1">
+        <li>
+          <a href="https://hacktoberfest.com/auth/">Hacktoberfest 2022</a>
+        </li>
+        <li><a href="https://forms.gle/o7rD1E5LkuHkb8bE7">Fill our Form</a></li>
+      </ol>
+      <h2 id="lets-contribute">Let’s Contribute</h2>
+      <ol type="1">
+        <li>
+          <p>Fork this repository.</p>
+          <p>
+            You can make a copy of the project to your account. This process is
+            called forking a project to your Github account. On Upper right side
+            of project page on Github, you can see -
+          </p>
+          <figure>
+            <img
+              class="img-rez"
+              src="https://user-images.githubusercontent.com/97826441/193424224-19ff62d0-fe61-450b-89ec-c75668d9639e.png"
+              alt=""
+            />
+          </figure>
+          <p>
+            Click on fork to create a copy of project to your account. This
+            creates a separate copy for you to work on.
+          </p>
+        </li>
+        <li>
+          <p>Clone the forked repository to your local machine.</p>
+          <p>
+            You have forked the project you want to contribute to your github
+            account. To get this project on your development machine we use
+            clone command of git.
+          </p>
+          <pre
+            class="code"
+          ><code>$ git clone https://github.com/YOUR_USERNAME_HERE/Hacktoberfest.git</code></pre>
+          <p>Now you have the project on your local machine.</p>
+        </li>
+        <li>
+          <p>
+            Create a new branch for a feature or bugfix provided in the Issues
+            section of the repository.
+          </p>
+          <p>
+            Usually, all repositories have a main branch that is regarded to be
+            stable, and any new features should be developed on a separate
+            branch before being merged into the main branch. As a result, we
+            should establish a new branch for our feature or bugfix and go to
+            work on the issue.
+          </p>
+          <pre
+            class="code"
+          ><code>$ git checkout -b BRANCH_NAME_HERE</code></pre>
+          <p>
+            This will create a new branch out of master branch. Now start
+            working on the problem and commit your changes.
+          </p>
+        </li>
+        <li>
+          <p>Add the changes to your repository.</p>
+          <pre class="code"><code>$ git add .
+$ git commit -m &quot;COMMIT_MESSAGE_HERE&quot;</code></pre>
+          <p>
+            The first command adds all the files or you can add specific files
+            by removing “<em>.</em>” and adding the file names. The second
+            command gives a message to your changes so you can know in future
+            what changes this commit makes.
+          </p>
+        </li>
+        <li>
+          <p>Push code and create a pull request. And that’s all.</p>
+          <p>
+            You now have a new branch containing the modifications you want in
+            the project you forked. Now, push your new branch to your remote
+            github fork.
+          </p>
+          <pre
+            class="code"
+          ><code>$ git push origin BRANCH_NAME_HERE</code></pre>
+          <p>
+            Now you are ready to help the project by opening a pull request
+            means you now tell the project managers to add the feature or bug
+            fix to original repository. You can open a pull request by clicking
+            on green icon -
+          </p>
+          <figure>
+            <img
+              class="img-rez"
+              width="70%"
+              src="https://user-images.githubusercontent.com/97826441/193424306-c7c9c106-c753-46e7-a9bb-9876ed27b959.png"
+              alt=""
+            />
+          </figure>
+
+          <p>
+            Remember your upstream base branch should be main and source should
+            be your feature branch. Click on create pull request and add a name
+            to your pull request. You can also describe your feature.
+          </p>
+        </li>
+      </ol>
+      <h2 id="what-you-can-contribute-in-this-repo">
+        What you can contribute in this repo?
+      </h2>
+      <ul>
+        <li>
+          You can add your own project or a blog explaining a topic related to
+          the selected languages or framework.
+        </li>
+        <li>
+          There are various topics like Android Development, Web
+          Development(Front end, Back end), Graphic Designing, UI/UX, Data
+          Structures and Algorithms, Python, SQL, NOSQL and etc. You can
+          contribute in them
+        </li>
+        <li>
+          You can contribute directly on the issues that we have created for
+          you.
+        </li>
+        <li>
+          You can modify previous information if you feel you can do better.
+        </li>
+      </ul>
+      <h2 id="maintainers-and-collaborators">Maintainers and Collaborators</h2>
+      <p>
+        <a
+          href="https://gdsc.community.dev/maharishi-markandeshwar-deemed-to-be-university-mullana/"
+          ><img
+            src="https://user-images.githubusercontent.com/97826441/193492836-8446605e-8915-4967-84e3-3d5498a807df.png"
+            width="170"
+        /></a>
+        <a
+          href="https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/"
+          ><img
+            src="https://user-images.githubusercontent.com/97826441/193493174-9e85f94f-bda3-4003-807f-92bdda168659.png"
+            width="170"
+        /></a>
+        <a
+          href="https://gdsc.community.dev/j-c-bose-university-of-science-and-technology-faridabad/"
+          ><img
+            src="https://user-images.githubusercontent.com/97826441/193493245-31ad5ec6-5565-4319-bac3-acf94e00be79.png"
+            width="170"
+        /></a>
+        <a
+          href="https://gdsc.community.dev/delhi-technical-campus-greater-noida/"
+          ><img
+            src="https://user-images.githubusercontent.com/97826441/193493297-6827388b-c81b-4a60-aea3-214e826010f6.png"
+            width="170"
+        /></a>
+        <a
+          href="https://gdsc.community.dev/cooch-behar-government-engineering-college-cooch-behar/"
+          ><img
+            src="https://user-images.githubusercontent.com/97826441/193493369-e293a3cc-c1d1-47f2-8adc-180e5ced55a1.png"
+            width="170"
+        /></a>
+      </p>
+    </div>
+    <div style="text-align: center">
+      <!-- <h2 id="contact">
+        Contact<a
+          class="anchorjs-link"
+          href="#contact"
+          aria-label="Anchor"
+          data-anchorjs-icon=""
+          style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
+        ></a>
+      </h2> -->
+      <hr style="width: 100%; text-align: left; margin-left: 0" />
+
+      <p>You can reach out to us at:</p>
+
+      <p>
+        <a href="https://facebook.com/dscmmdu">Facebook</a>
+        |
+        <a href="https://instagram.com/gdsc_mmdu">Instagram</a>
+        |
+        <a href="">LinkedIn</a>
+        |
+        <a href="https://twitter.com/gdsc_mmdu">Twitter</a>
+        |
+        <a
+          href="https://gdsc.community.dev/maharishi-markandeshwar-deemed-to-be-university-mullana"
+          >GDSC MMDU Chapter</a
+        >
+        |
+        <a href="mailto:mmdu.dsc@gmail.com">E-mail Us</a>
+      </p>
+    </div>
+  </body>
+</html>

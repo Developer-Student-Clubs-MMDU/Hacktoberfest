@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+    <title> Hacktoberfest 2022
+Hacktoberfest is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio. Hacktoberfest is open to everyone in our global community!</title>
+    <meta
+      name="description"
+      content="Hacktoberfest: a month-long celebration of open-source projects, their maintainers, and the entire community of contributors."
+    />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_180,q_auto:good,w_180/v1/gcs/platform-data-dsc/contentbuilder/favicon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_32,q_auto:good,w_32/v1/gcs/platform-data-dsc/contentbuilder/favicon.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_192,q_auto:good,w_192/v1/gcs/platform-data-dsc/contentbuilder/favicon.png"
+      sizes="192x192"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://res.cloudinary.com/startup-grind/image/upload/c_fill,dpr_2.0,f_auto,g_center,h_16,q_auto:good,w_16/v1/gcs/platform-data-dsc/contentbuilder/favicon.png"
+      sizes="16x16"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@gdsc_mmdu" />
+    <meta name="twitter:title" content="Hacktoberfest 2022" />
+    <meta
+      name="twitter:description"
+      content="Hacktoberfest: a month-long celebration of open-source projects, their maintainers, and the entire community of contributors."
+    />
+
+    <meta property="og:url" content="https://hacktoberfest.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Hacktoberfest 2022" />
+    <meta
+      property="og:description"
+      content="Hacktoberfest: a month-long celebration of open-source projects, their maintainers, and the entire community of contributors."
+    />
+
+    <!--...............................................................................................................................................
+........................GGGGGGG....DDDDDDDDD.....SSSSSSS......CCCCCCC........ MMMMM...MMMMMMM..MMMMM...MMMMMM..((((.DDDDDDDDD....UUUU...UUUU.))))...
+......................GGGGGGGGGG...DDDDDDDDDD...SSSSSSSSS....CCCCCCCCC....... MMMMM...MMMMMMM..MMMMM...MMMMMM..(((..DDDDDDDDDD...UUUU...UUUU..)))...
+.....................GGGGGGGGGGGG..DDDDDDDDDDD..SSSSSSSSSS..CCCCCCCCCCC...... MMMMM...MMMMMMM..MMMMM...MMMMMM.((((..DDDDDDDDDDD..UUUU...UUUU..))))..
+.....................GGGGG..GGGGG..DDDD...DDDD.SSSSS..SSSS..CCCC...CCCCC..... MMMMMM.MMMMMMMM..MMMMMM.MMMMMMM.((((..DDDD...DDDD..UUUU...UUUU..))))..
+....................GGGGG....GGG...DDDD....DDDDSSSSS.......SCCC.....CCC...... MMMMMM.MMMMMMMM..MMMMMM.MMMMMMM.((((..DDDD....DDDD.UUUU...UUUU..))))..
+....................GGGG...........DDDD....DDDD.SSSSSSS....SCCC.............. MMMMMM.MMMMMMMM..MMMMMM.MMMMMMM((((...DDDD....DDDD.UUUU...UUUU...)))..
+....................GGGG..GGGGGGGG.DDDD....DDDD..SSSSSSSSS.SCCC.............. MMMMMMMMMMMMMMM..MMMMMMMMMMMMMM((((...DDDD....DDDD.UUUU...UUUU...)))..
+....................GGGG..GGGGGGGG.DDDD....DDDD....SSSSSSS.SCCC.............. MMMMMMMMMMMMMMM..MMMMMMMMMMMMMM((((...DDDD....DDDD.UUUU...UUUU...)))..
+....................GGGGG.GGGGGGGG.DDDD....DDDD.......SSSSSSCCC.....CCC...... MMMMMMMMMMMMMMM..MMMMMMMMMMMMMM((((...DDDD....DDDD.UUUU...UUUU...)))..
+.....................GGGGG....GGGG.DDDD...DDDDDSSSS....SSSS.CCCC...CCCCC..... MMM.MMMMM.MMMMM..MMM.MMMMM.MMMM((((...DDDD...DDDDD.UUUU...UUUU...)))..
+.....................GGGGGGGGGGGG..DDDDDDDDDDD.SSSSSSSSSSSS.CCCCCCCCCCC...... MMM.MMMMM.MMMMM..MMM.MMMMM.MMMM((((...DDDDDDDDDDD..UUUUUUUUUUU...)))..
+......................GGGGGGGGGG...DDDDDDDDDD...SSSSSSSSSS...CCCCCCCCCC...... MMM.MMMMM.MMMMM..MMM.MMMMM.MMMM((((...DDDDDDDDDD....UUUUUUUUU....)))..
+..... ..................GGGGGGG....DDDDDDDDD.....SSSSSSSS.....CCCCCCC........ MMM.MMMMM.MMMMM..MMM.MMMMM.MMMM.((((..DDDDDDDDD......UUUUUUU....))))..
+..............................................................................................................((((............................))))..
+..............................................................................................................((((............................))))..
+...............................................................................................................(((............................)))...
+...............................................................................................................((((..........................))))...
+.................................................................................................................................................... -->
+    <title>Document</title>
+  </head>
+  <style>
+    a {
+      color: #58a6ff;
+    }
+  
+  </style>
+  <body
+    style="
+      background-color: #170f1d;
+      color: white;
+      font-family: sans-serif;
+
+      font-size: 16px;
+      line-height: 1.5;
+      word-wrap: break-word;
+    "
+  > 
+    <div style="padding: 0rem 5rem 0rem 5rem; margin: 5rem">
+      <h1>
+        <a href="https://developer-student-clubs-mmdu.github.io/Hacktoberfest/"
+          >Hacktoberfest</a
+        >
+      </h1>
+
+      <p>
+        <img
+          style="
+            width: 100%;
+            height: 100%;
+
+            object-fit: cover;
+          "
+          src="https://user-images.githubusercontent.com/97826441/193617775-4d6be6d7-3216-4c49-a5bf-580d6d287382.png"
+          alt="Banner for Emailer and Github"
+        />
+      </p>
+      <h1 id="hacktoberfest-2022">Hacktoberfest 2022</h1>
+
+      <p>
+        Hacktoberfest is a month-long celebration of open source contribution.
+        Anyone can participate by making four pull requests to public
+        repositories on GitHub. The goal is to get more people involved in
+        contributing to open source projects, and to learn more about the GitHub
+        platform.
+      </p>
+
+      <h2 id="repository-list">
+        Repository List<a
+          class="anchorjs-link"
+          href="#repository-list"
+          aria-label="Anchor"
+          data-anchorjs-icon=""
+          style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
+        ></a>
+        <hr style="width: 100%; text-align: left; margin-left: 0" />
+      </h2>
+
+      <ol>
+        <li>
+          <strong>Frontend Web Development</strong>:
+          <a
+            href="https://github.com/Developer-Student-Clubs-MMDU/Frontend-Web-Development"
+            >https://github.com/Developer-Student-Clubs-MMDU/Frontend-Web-Development</a
+          >
+        </li>
+        <li>
+          <strong>Backend Web Development</strong>:
+          <a
+            href="https://github.com/Developer-Student-Clubs-MMDU/Backend-Web-Development"
+            >https://github.com/Developer-Student-Clubs-MMDU/Backend-Web-Development</a
+          >
+        </li>
+        <li>
+          <strong>App-Development</strong>:
+          <a
+            href="https://github.com/Developer-Student-Clubs-MMDU/App-Development"
+            >https://github.com/Developer-Student-Clubs-MMDU/App-Development</a
+          >
+        </li>
+        <li>
+          <strong>Data-Structures-and-Algorithms</strong>:
+          <a
+            href="https://github.com/Developer-Student-Clubs-MMDU/Data-Structures-and-Algorithms"
+            >https://github.com/Developer-Student-Clubs-MMDU/Data-Structures-and-Algorithms</a
+          >
+        </li>
+        <li>
+          <strong>Web-Scraping</strong>:
+          <a href="https://github.com/Developer-Student-Clubs-MMDU/Web-Scraping"
+            >https://github.com/Developer-Student-Clubs-MMDU/Web-Scraping</a
+          >
+        </li>
+        <li>
+          <strong>Data-Science</strong>:
+          <a href="https://github.com/Developer-Student-Clubs-MMDU/Data-Science"
+            >https://github.com/Developer-Student-Clubs-MMDU/Data-Science</a
+          >
+        </li>
+        <li>
+          <strong>Database-Management-System</strong>:
+          <a
+            href="https://github.com/Developer-Student-Clubs-MMDU/Database-Management-System"
+            >https://github.com/Developer-Student-Clubs-MMDU/Database-Management-System</a
+          >
+        </li>
+        <li>
+          <strong>Cloud-Computing</strong>:
+          <a
+            href="https://github.com/Developer-Student-Clubs-MMDU/Cloud-Computing"
+            >https://github.com/Developer-Student-Clubs-MMDU/Cloud-Computing</a
+          >
+        </li>
+        <li>
+          <strong>Designing</strong>:
+          <a href="https://github.com/Developer-Student-Clubs-MMDU/Designing"
+            >https://github.com/Developer-Student-Clubs-MMDU/Designing</a
+          >
+        </li>
+        <li>
+          <strong>IOT</strong>:
+          <a href="https://github.com/Developer-Student-Clubs-MMDU/IOT"
+            >https://github.com/Developer-Student-Clubs-MMDU/IOT</a
+          >
+        </li>
+        <li>
+          <strong>Game-Development</strong>:
+          <a
+            href="https://github.com/Developer-Student-Clubs-MMDU/Game-Development"
+            >https://github.com/Developer-Student-Clubs-MMDU/Game-Development</a
+          >
+        </li>
+        <li>
+          <strong>Computer-Programming</strong>:
+          <a
+            href="https://github.com/Developer-Student-Clubs-MMDU/Computer-Programming"
+            >https://github.com/Developer-Student-Clubs-MMDU/Computer-Programming</a
+          >
+        </li>
+      </ol>
+      <br />
+      <h2 id="contributing">
+        Contributing<a
+          class="anchorjs-link"
+          href="#contributing"
+          aria-label="Anchor"
+          data-anchorjs-icon=""
+          style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
+        ></a>
+        <hr style="width: 100%; text-align: left; margin-left: 0" />
+      </h2>
+
+      <p>
+        We welcome all contributions to the community and are exited to welcome
+        you onboard.
+      </p>
+
+      <p>
+        Please go through the
+        <a href="./CONTRIBUTING.html">Contributing Guidelines</a>
+        before you start contributing to this repository.
+      </p>
+      <br /><br />
+      <h2 id="Code of Conduct">
+        Code of Conduct<a
+          class="anchorjs-link"
+          href="./Code of Conduct.html"
+          aria-label="Anchor"
+          data-anchorjs-icon=""
+          style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
+        ></a>
+        <hr style="width: 100%; text-align: left; margin-left: 0" />
+      </h2>
+
+      <p>
+        Please go through the
+        <a href="./Code of Conduct.html">Code of Conduct</a>
+        before you start contributing to this repository.
+      </p>
+
+      <br />
+      <h2 id="contributors">
+        Contributors<a
+          class="anchorjs-link"
+          href="#contributors"
+          aria-label="Anchor"
+          data-anchorjs-icon=""
+          style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
+        ></a>
+        <hr style="width: 100%; text-align: left; margin-left: 0" />
+      </h2>
+
+      <p>
+        <a
+          href="https://github.com/Developer-Student-Clubs-MMDU/Hacktoberfest/graphs/contributors"
+        >
+          <img
+            src="https://contrib.rocks/image?repo=Developer-Student-Clubs-MMDU/Hacktoberfest"
+          />
+        </a>
+      </p>
+      <br />
+      <h2 id="maintainers-and-collaborators">
+        Maintainers and Collaborators<a
+          class="anchorjs-link"
+          href="#maintainers-and-collaborators"
+          aria-label="Anchor"
+          data-anchorjs-icon=""
+          style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
+        ></a>
+        <hr style="width: 100%; text-align: left; margin-left: 0" />
+      </h2>
+
+      <p>
+        <a
+          href="https://gdsc.community.dev/maharishi-markandeshwar-deemed-to-be-university-mullana/"
+          ><img
+            src="https://user-images.githubusercontent.com/97826441/193492836-8446605e-8915-4967-84e3-3d5498a807df.png"
+            width="170"
+        /></a>
+        <a
+          href="https://gdsc.community.dev/baba-banda-singh-bahadur-engineering-college-fatehgarh-sahib/"
+          ><img
+            src="https://user-images.githubusercontent.com/97826441/193493174-9e85f94f-bda3-4003-807f-92bdda168659.png"
+            width="170"
+        /></a>
+        <a
+          href="https://gdsc.community.dev/j-c-bose-university-of-science-and-technology-faridabad/"
+          ><img
+            src="https://user-images.githubusercontent.com/97826441/193493245-31ad5ec6-5565-4319-bac3-acf94e00be79.png"
+            width="170"
+        /></a>
+        <a
+          href="https://gdsc.community.dev/delhi-technical-campus-greater-noida/"
+          ><img
+            src="https://user-images.githubusercontent.com/97826441/193493297-6827388b-c81b-4a60-aea3-214e826010f6.png"
+            width="170"
+        /></a>
+        <a
+          href="https://gdsc.community.dev/cooch-behar-government-engineering-college-cooch-behar/"
+          ><img
+            src="https://user-images.githubusercontent.com/97826441/193493369-e293a3cc-c1d1-47f2-8adc-180e5ced55a1.png"
+            width="170"
+        /></a>
+      </p>
+      <br />
+      <h2 id="contact">
+        Contact<a
+          class="anchorjs-link"
+          href="#contact"
+          aria-label="Anchor"
+          data-anchorjs-icon=""
+          style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
+        ></a>
+        <hr style="width: 100%; text-align: left; margin-left: 0" />
+      </h2>
+
+      <p>You can reach out to us at:</p>
+
+      <p>
+        <a href="https://facebook.com/dscmmdu">Facebook</a>
+        |
+        <a href="https://instagram.com/gdsc_mmdu">Instagram</a>
+        |
+        <a href="">LinkedIn</a>
+        |
+        <a href="https://twitter.com/gdsc_mmdu">Twitter</a>
+        |
+        <a
+          href="https://gdsc.community.dev/maharishi-markandeshwar-deemed-to-be-university-mullana"
+          >GDSC MMDU Chapter</a
+        >
+        |
+        <a href="mailto:mmdu.dsc@gmail.com">E-mail Us</a>
+      </p>
+      <br />
+      <h2 id="license">
+        License<a
+          class="anchorjs-link"
+          href="#license"
+          aria-label="Anchor"
+          data-anchorjs-icon=""
+          style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
+        ></a>
+        <hr style="width: 100%; text-align: left; margin-left: 0" />
+      </h2>
+
+      <p>
+        The content of this repository is bound by the
+        <a href="./License.html">MIT</a> license.
+      </p>
+
+      <br /><br />
+      <div style="width: 100%; text-align: center">
+        <p>Copyright © 2022 <strong>GDSC MMDU</strong></p>
+
+        <div
+          class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray"
+        >
+          This site is open source.
+          <a
+            href="https://github.com/Developer-Student-Clubs-MMDU/Hacktoberfest/tree/hacktoberfest"
+            >Improve this page</a
+          >.
+        </div>
+      </div>
+    </div>
+   </body>
+</html>

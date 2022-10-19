@@ -1,4 +1,14 @@
 # Hacktoberfest 2022
+
+ ![GitHub forks](https://img.shields.io/github/forks/Developer-Student-Clubs-MMDU/Hacktoberfest?label=Forks&style=for-the-badge) 
+ ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Developer-Student-Clubs-MMDU/Hacktoberfest?style=for-the-badge)
+ ![GitHub issues](https://img.shields.io/github/issues/Developer-Student-Clubs-MMDU/Hacktoberfest?style=for-the-badge)
+ ![License](https://img.shields.io/github/license/Developer-Student-Clubs-MMDU/Hacktoberfest?style=for-the-badge)
+<!--  ![Contributors](https://img.shields.io/github/contributors/Developer-Student-Clubs-MMDU/Hacktoberfest?label=Forks&style=for-the-badge)
+ -->
+ 
+
+
 ![Banner for Emailer and Github](https://user-images.githubusercontent.com/97826441/193617775-4d6be6d7-3216-4c49-a5bf-580d6d287382.png)
 
 Hacktoberfest is a month-long celebration of open source contribution. Anyone can participate by making four pull requests to public repositories on GitHub. The goal is to get more people involved in contributing to open source projects, and to learn more about the GitHub platform.

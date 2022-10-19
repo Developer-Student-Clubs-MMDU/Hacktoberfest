@@ -4,8 +4,7 @@
  ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Developer-Student-Clubs-MMDU/Hacktoberfest?style=for-the-badge)
  ![GitHub issues](https://img.shields.io/github/issues/Developer-Student-Clubs-MMDU/Hacktoberfest?style=for-the-badge)
  ![License](https://img.shields.io/github/license/Developer-Student-Clubs-MMDU/Hacktoberfest?style=for-the-badge)
-<!--  ![Contributors](https://img.shields.io/github/contributors/Developer-Student-Clubs-MMDU/Hacktoberfest?label=Forks&style=for-the-badge)
- -->
+ ![Stars](https://img.shields.io/github/stars/Developer-Student-Clubs-MMDU/Hacktoberfest?style=for-the-badge)
  
 
 

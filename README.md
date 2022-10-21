@@ -1,4 +1,9 @@
-# Hacktoberfest 2022
+# Hacktoberfest 2022   
+## 👀 &nbsp;Profile Vist
+
+<img src="https://profile-counter.glitch.me/%7BDeveloper-Student-Clubs-MMDU-Hacktoberfest%7D/count.svg">
+<br>
+
 
  ![GitHub forks](https://img.shields.io/github/forks/Developer-Student-Clubs-MMDU/Hacktoberfest?label=Forks&style=for-the-badge) 
  ![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/Developer-Student-Clubs-MMDU/Hacktoberfest?style=for-the-badge)

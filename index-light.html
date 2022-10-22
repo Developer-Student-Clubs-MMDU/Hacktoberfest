@@ -7,23 +7,47 @@
     <title>Document</title>
   </head>
   <!-- <body style="background-color: #170f1d; color: whitesmoke"> -->
-  <body
-    style="
-      font-family: sans-serif;
-
-      font-size: 16px;
-      line-height: 1.5;
-      word-wrap: break-word;
-    "
-  >
+    <style>
+      a {
+        color: #58a6ff;
+      }  
+  
+      body {
+        font-family: sans-serif;  
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+      }
+  
+      .DarkMode {
+        background-color: #170f1d;
+        color: white;
+      }
+  
+      hr{
+        width: 100%; text-align: left; margin-left: 0 
+      }
+  
+      button{
+        float: right;
+      }
+  
+      img{
+        background-color: transparent;     
+      }
+    
+    </style>
+  <body>
     <div style="padding: 5rem; margin: 15rem">
       <h1>
         <a href="https://developer-student-clubs-mmdu.github.io/Hacktoberfest/"
           >Hacktoberfest</a
         >
+        <button id="theme_button">
+          <img src="dark-mode.png" height="50" width="50"/>
+        </button>
       </h1>
-
-      <h1 id="hacktoberfest-2022">Hacktoberfest 2022</h1>
+      
       <p>
         <img
           style="
@@ -36,6 +60,7 @@
           alt="Banner for Emailer and Github"
         />
       </p>
+      <h1 id="hacktoberfest-2022">Hacktoberfest 2022</h1>
 
       <p>
         Hacktoberfest is a month-long celebration of open source contribution.
@@ -285,5 +310,14 @@
         >.
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("theme_button").addEventListener("click", Dark_Mode);
+      });
+      function Dark_Mode() {
+         var element = document.body;
+         element.classList.toggle("DarkMode");
+      }
+      </script>
   </body>
 </html>

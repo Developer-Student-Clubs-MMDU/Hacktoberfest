@@ -10,9 +10,8 @@
     a {
       color: #58a6ff;
     }
-  </style>
-  <body
-    style="
+
+    body {
       background-color: #170f1d;
       color: white;
       font-family: sans-serif;
@@ -20,15 +19,37 @@
       font-size: 16px;
       line-height: 1.5;
       word-wrap: break-word;
-    "
-  >
+    }
+
+    .LightMode {
+      background-color: #fafafa;
+      color: black;
+    }
+
+    hr{
+      width: 100%; text-align: left; margin-left: 0 
+    }
+
+    button{
+      float: right;
+    }
+
+    img{
+      background-color: transparent;     
+    }
+
+  </style>
+  <body>
     <div style="padding: 0rem 5rem 0rem 5rem; margin: 5rem">
       <h1 id="contributor-covenant-code-of-conduct">
         <span><a onclick="history.back()"> HOME  </a> / </span> Code of Conduct
+        <button id="theme_button">
+          <img src="dark-mode.png" height="50" width="50"/>
+        </button>
       </h1>
       <h2 id="our-pledge">
         Our Pledge
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <p>
@@ -45,7 +66,7 @@
       </p>
       <h2 id="our-standards">
         Our Standards
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <p>
@@ -89,7 +110,7 @@
       </ul>
       <h2 id="enforcement-responsibilities">
         Enforcement Responsibilities
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <p>
@@ -107,7 +128,7 @@
       </p>
       <h2 id="scope">
         Scope
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <p>
@@ -120,7 +141,7 @@
       </p>
       <h2 id="enforcement">
         Enforcement
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <p>
@@ -136,7 +157,7 @@
       </p>
       <h2 id="enforcement-guidelines">
         Enforcement Guidelines
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
       <p>
         Community leaders will follow these Community Impact Guidelines in
@@ -205,7 +226,7 @@
       </ol>
       <h2 id="attribution">
         Attribution
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <p>
@@ -232,5 +253,14 @@
         >
       </p>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("theme_button").addEventListener("click", Light_Mode);
+      });
+      function Light_Mode() {
+         var element = document.body;
+         element.classList.toggle("LightMode");
+      }
+      </script>
   </body>
 </html>

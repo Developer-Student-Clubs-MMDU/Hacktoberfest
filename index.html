@@ -75,11 +75,9 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
   <style>
     a {
       color: #58a6ff;
-    }
-  
-  </style>
-  <body
-    style="
+    }  
+
+    body {
       background-color: #170f1d;
       color: white;
       font-family: sans-serif;
@@ -87,14 +85,37 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
       font-size: 16px;
       line-height: 1.5;
       word-wrap: break-word;
-    "
-  > 
+    }
+
+    .LightMode {
+      background-color: #fafafa;
+      color: black;
+    }
+
+    hr{
+      width: 100%; text-align: left; margin-left: 0 
+    }
+
+    button{
+      float: right;
+    }
+
+    img{
+      background-color: transparent;     
+    }
+  
+  </style>
+  <body> 
     <div style="padding: 0rem 5rem 0rem 5rem; margin: 5rem">
       <h1>
         <a href="https://developer-student-clubs-mmdu.github.io/Hacktoberfest/"
-          >Hacktoberfest</a
-        >
+          >Hacktoberfest</a>
+          <button id="theme_button">
+            <img src="dark-mode.png" height="50" width="50"/>
+          </button>
       </h1>
+
+      
 
       <p>
         <img
@@ -126,7 +147,7 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
           data-anchorjs-icon=""
           style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
         ></a>
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <ol>
@@ -220,7 +241,7 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
           data-anchorjs-icon=""
           style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
         ></a>
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr>
       </h2>
 
       <p>
@@ -242,7 +263,7 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
           data-anchorjs-icon=""
           style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
         ></a>
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr>
       </h2>
 
       <p>
@@ -260,7 +281,7 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
           data-anchorjs-icon=""
           style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
         ></a>
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <p>
@@ -281,7 +302,7 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
           data-anchorjs-icon=""
           style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
         ></a>
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <p>
@@ -325,7 +346,7 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
           data-anchorjs-icon=""
           style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
         ></a>
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <p>You can reach out to us at:</p>
@@ -355,7 +376,7 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
           data-anchorjs-icon=""
           style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em"
         ></a>
-        <hr style="width: 100%; text-align: left; margin-left: 0" />
+        <hr/>
       </h2>
 
       <p>
@@ -378,5 +399,14 @@ Hacktoberfest is a month-long celebration of open source software run by Digital
         </div>
       </div>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("theme_button").addEventListener("click", Light_Mode);
+      });
+      function Light_Mode() {
+         var element = document.body;
+         element.classList.toggle("LightMode");
+      }
+      </script>
    </body>
 </html>

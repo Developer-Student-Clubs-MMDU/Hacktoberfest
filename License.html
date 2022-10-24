@@ -10,9 +10,8 @@
     a {
       color: #58a6ff;
     }
-  </style>
-  <body
-    style="
+
+    body {
       background-color: #170f1d;
       color: white;
       font-family: sans-serif;
@@ -20,11 +19,28 @@
       font-size: 16px;
       line-height: 1.5;
       word-wrap: break-word;
-    "
-  >
+    }
+
+    .LightMode {
+      background-color: #fafafa;
+      color: black;
+    }
+
+    button{
+      float: right;
+    }
+
+    img{
+      background-color: transparent;     
+    }
+  </style>
+  <body>
     <div style="padding: 0rem 5rem 0rem 5rem; margin: 5rem">
       <h2>
         <span><a onclick="history.back()"> HOME  </a> / </span>MIT License
+        <button id="theme_button">
+          <img src="dark-mode.png" height="50" width="50"/>
+        </button>
       </h2>
       <p><i>Copyright (c) 2022 Developer-Student-Clubs-MMDU</i></p>
       <p>
@@ -50,5 +66,14 @@
         SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
       </p>
     </div>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("theme_button").addEventListener("click", Light_Mode);
+      });
+      function Light_Mode() {
+         var element = document.body;
+         element.classList.toggle("LightMode");
+      }
+      </script>
   </body>
 </html>
